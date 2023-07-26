@@ -35,7 +35,7 @@ img {
 .container {
   display: flex;
   flex-direction: column;
-  flex: 1 1 0;
+  flex: 1 1 1080px;
 }
 
 /* header */
@@ -197,6 +197,10 @@ p {
 
 .footer {
   background-color: #1f2937;
-  color: #fff;
   font-family: "Roboto", arial;
+  text-align: center;
+}
+
+.footer p {
+  color: #f9faf8;
 }
