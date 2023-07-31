@@ -76,23 +76,29 @@ img {
 
 /* hero part below header */
 
+.hero-box {
+  background: #1f2937;
+}
+
 .hero {
+  max-width: 1080px;
   display: flex;
   flex: 1;
+  flex-wrap: wrap;
   margin: 0 auto;
-  background: #1f2937;
+  /* background: #1f2937; */
   align-items: center;
-  justify-content: space-around;
-  padding: 0 400px;
+  justify-content: center;
+  padding: 24px;
 }
 
 .hero-info {
   flex: 1 1 300px;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 50px;
+  padding: 50px; */
 }
 
 .hero h1 {
